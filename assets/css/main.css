@@ -705,7 +705,7 @@ input, select, textarea {
 			}
 
 		.image.pier {
-			width: 60%
+			width: 55%
 		}
 
 		@media screen and (max-width: 736px) {
@@ -714,12 +714,20 @@ input, select, textarea {
 				margin: 2rem 0;
 			}
 
+			.image.pier {
+				width: 80%
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			.image.main {
 				margin: 1.5rem 0;
+			}
+
+			.image.pier {
+				width: 100%
 			}
 
 		}
