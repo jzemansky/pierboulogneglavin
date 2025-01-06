@@ -290,11 +290,13 @@
 			$main_articles.each(function() {
 
 				var $this = $(this);
+				var audio = document.getElementById("audio");
 
 				// Close.
 					$('<div class="close">Close</div>')
 						.appendTo($this)
 						.on('click', function() {
+							audio.pause();
 							location.hash = '';
 						});
 
