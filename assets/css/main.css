@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+.mainDemos {
+	display: flex;
+	flex-direction: row;
+	gap: 50px
+}
 /* Basic */
 
 	@-ms-viewport {
