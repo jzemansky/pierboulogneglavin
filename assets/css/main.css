@@ -72,11 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-.mainDemos {
-	display: flex;
-	flex-direction: row;
-	gap: 50px
-}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -1676,3 +1672,9 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.mainDemos {
+	display: flex;
+	flex-direction: row;
+	gap: 50px
+}
